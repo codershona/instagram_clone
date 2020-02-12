@@ -14,5 +14,6 @@
    - rails generate devise Account ;
    - rails db:migrate ;
    - rails g controller public ;
+   - rails g controller Accounts;
    - 
 ```
