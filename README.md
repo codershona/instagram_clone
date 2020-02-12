@@ -1,24 +1,18 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Project : Instagram Clone Rails app
 
-Things you may want to cover:
 
-* Ruby version
 
-* System dependencies
+##### Using Postgresql database.
 
-* Configuration
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Notes :
+```
+   - rails generate devise:install;
+   - rails g devise:view ;
+   - rails generate devise Account ;
+   - rails db:migrate ;
+   - rails g controller public ;
+   - 
+```
