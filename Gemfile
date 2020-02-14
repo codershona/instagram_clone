@@ -30,9 +30,18 @@ gem 'turbolinks', '~> 5'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
+# image upload to Amazon S3
+
+gem 'carrierwave', '~> 2.0', '>= 2.0.2'
+
+gem 'fog', '~> 1.37.0'
+
 gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
 
 gem 'devise', '~> 4.7', '>= 4.7.1'
+
+# image resizing
+gem 'mini_magick'
 
 
 
@@ -54,6 +63,10 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+
+# local ENV vars
+ gem 'figaro', '~> 1.1', '>= 1.1.1'
+
 end
 
 

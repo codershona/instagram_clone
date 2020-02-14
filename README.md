@@ -15,5 +15,9 @@
    - rails db:migrate ;
    - rails g controller public ;
    - rails g controller Accounts;
+   - rails g migration create_posts ;
+   - rails g model Post --skip ;
+   - rails generate uploader Image ;
    - 
+
 ```
